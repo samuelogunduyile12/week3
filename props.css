@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Nunito:wght@200;700&display=swap');
 
+
+main{
+    width: 50%;
+    background-color: black;
+}
 section{
     margin: 10px auto;
     width: 600px;
@@ -13,21 +18,43 @@ section{
     background: linear-gradient(60deg,green, violet, crimson)
 }
 .props:nth-of-type(3){
-    background: linear-gradient(90deg, black 25%, blue 25%)
+    background: -repeating-linear-gradient(90deg, black 25%, blue 25%)
 }
 .props:nth-of-type(4){
-    background: linear-gradient(90deg, green 33.3%.3, white 33%.3, white 66%.6, green 66.6%)
+    background: linear-gradient(90deg, green 33.3%.3, white 33%.3, white 66%.6, green 66.6%);
 }
 .props:nth-of-type(5){
-    background-color: blanchedalmond;
+    background: -webkit-repeating-radial-gradient(green 20%, blue 30%, red 40% );
+    background: -moz-radial-gradient(green 50%, black 50% );
+    background: -o-radial-gradient(green 50%, blue 50% );
     font-family: 'Noto Sans KR', sans-serif;   
 }
 h1{
     font-family: 'Nunito', sans-serif;
+    height: 250px
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    background-image: conic-gradient(
+        red 20%,
+        blue 20%,
+        magenta 55%,
+        magenta 66%,
+        moccasin 66%,
+        moccasin 79%,
+        skyblue 79%,
+        skyblue 89%,
+        purple 89% );
+    background: -webkit-repeating-radial-gradient(circle, green 20%, blue 30%, red 40%);
     font-weight: 700;
 }
 p{
     font-family: 'Nunito', sans-serif;
     font-style: 300;
+    background-color:hsla(hue, saturation, lightness, alpha)
     
 }
