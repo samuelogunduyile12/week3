@@ -42,7 +42,7 @@ section{
     border-bottom: 17.5px solid blue;
 }
 .flags:nth-of-type(7){
-    background-image: url(./images/gana.png), linear-gradient(180deg, red 33.33%, yellow 33.33%, yellow 66.66%,  green 66.66%);
+    background-image: url(./images/gana.png), linear-gradient(180deg, red 33.33%, gold 33.33%, gold 66.66%,  green 66.66%);
     background-repeat: no-repeat;
     background-size: 200px, contain;
     background-position: center;
@@ -66,10 +66,9 @@ section{
     text-transform: uppercase;
     color: transparent;
     background-image: radial-gradient(red, green, blue);
-    -webkit-background-clip : text;
+    -webkit-background-clip: text;
     border-left: 17.5px solid black;
     border-right: 17.5px, solid black;
-
 }
 .conic{
     font-family: 'Montserrat', sans-serif;
@@ -86,6 +85,7 @@ section{
         green 85%
         yellow 85%
     };
+    border-top: 17.5px solid black;
+    border-bottom: 17.5px solid black;
     -webkit-background-clip: text;
 }
--webkit-background-clip : text;
