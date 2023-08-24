@@ -1,0 +1,36 @@
+section{
+    width: 400px;
+    height: 200px;
+    border: 10px solid;
+    margin-bottom: 20px;
+}
+section:nth-of-type(1){
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.722) 50%, rgba(0, 128, 0, 0.519)  50%), url(./images/Cars.jpeg), url(./images/Flowers.jpg), url(./images/Lion.jpeg);
+    background-size: 100px, 100px, 110px, 110px;
+    background-repeat:repeat, no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, top left, center;
+}
+section:nth-of-type(2){
+    background-image: url(./images/rolls_royce_phantom_top_10.webp), url(./images/yellow-star-png-image--yellow-star-png-image-2.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position: 200px 90px;
+}
+section:nth-of-type(3){
+    background-image: url(./images/cina-removebg-preview.png), radial-gradient(red, red);
+    background-size: 30px, contain;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+    height: 200px;
+    background-position: 30px 10px;
+}
+section:nth-of-type(4){
+    max-height: 300px;
+    overflow: auto;
+    border: 15px groove black;
+    padding: 20px 50px;
+}
+section:nth-of-type(5){
+    min-height: 200px;
+    border-right: 15px ridge black;
+}
