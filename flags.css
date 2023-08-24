@@ -68,7 +68,7 @@ section{
     background-image: radial-gradient(red, green, blue);
     -webkit-background-clip: text;
     border-left: 17.5px solid black;
-    border-right: 17.5px, solid black;
+    border-right: 17.5px solid black;
 }
 .conic{
     font-family: 'Montserrat', sans-serif;
@@ -85,7 +85,4 @@ section{
         green 85%
         yellow 85%
     };
-    border-top: 17.5px solid black;
-    border-bottom: 17.5px solid black;
-    -webkit-background-clip: text;
 }
