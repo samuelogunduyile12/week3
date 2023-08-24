@@ -29,10 +29,9 @@ section{
     border-right: 17.5px solid black;
 }
 .flags:nth-of-type(4){
-    background: linear-gradient(180deg, red 33.33%, white 33.33%, white 38.89%,blue 38.89%, blue 61.11%, white 61.11%, white 66.66%,
-       green 66.66%);
-       border-top: 17.5px solid black;
-       border-radius: 17.5px solid black;
+    background: linear-gradient(180deg, red 33.33%, white 33.33%, white 38.89%,blue 38.89%, blue 61.11%, white 61.11%, white 66.66%, 66.66% green);
+    border-top: 17.5px solid black;
+    border-radius: 17.5px solid black;
 }
 .flags:nth-of-type(5){
     background: linear-gradient(180deg, green 33.33%, yellow 33.33%, yellow 66.66%, blue 66.66%);
@@ -41,8 +40,8 @@ section{
 }
 .flags:nth-of-type(6){
     background: linear-gradient(180deg, black 33.33%, red 33.33%, red 66.66%, yellow 66.66% );
-    border-top: 17.5px solid black;
-    border-bottom: 17.5px black;
+    border-top: 17.5px solid blue;
+    border-bottom: 17.5px solid blue;
 }
 .flags:nth-of-type(7){
     background-image: url(./images/gana.png), linear-gradient(180deg, red 33.33%, yellow 33.33%, yellow 66.66%,  green 66.66%);
@@ -50,7 +49,7 @@ section{
     background-size: 200px, contain;
     background-position: center;
     border-left: 17.5px solid black;
-    border-bottom: 17.5px solid black;
+    border-right: 17.5px solid black;
 }
 .flags:nth-of-type(8){
     background-image: url(./images/canada-removebg-preview.png), linear-gradient(90deg, red 25%, white 25%, white 75%, red 75%);
@@ -72,7 +71,7 @@ section{
     -webkit-background-clip : text;
     border-left: 17.5px solid black;
     border-right: 17.5px, solid black;
-    
+
 }
 .conic{
     font-family: 'Montserrat', sans-serif;
