@@ -11,8 +11,6 @@ section{
 
 
 
-
-
 .flags:nth-of-type(1){
     background: linear-gradient(90deg, green 33.33%,white 33.33%,white 66.66%, green 66.66%);
     border-left: 17.5px solid black;
@@ -29,9 +27,9 @@ section{
     border-right: 17.5px solid black;
 }
 .flags:nth-of-type(4){
-    background: linear-gradient(180deg, red 33.33%, white 33.33%, white 38.89%,blue 38.89%, blue 61.11%, white 61.11%, white 66.66%, 66.66% green);
+    background: linear-gradient(180deg, red 33.3%, white 33.3%, white 38.8%, blue 38.8%, blue 61.0%, white 61.0%, white 66.6%, green 66.6% );
     border-top: 17.5px solid black;
-    border-radius: 17.5px solid black;
+    border-bottom: 17.5px solid black;
 }
 .flags:nth-of-type(5){
     background: linear-gradient(180deg, green 33.33%, yellow 33.33%, yellow 66.66%, blue 66.66%);
